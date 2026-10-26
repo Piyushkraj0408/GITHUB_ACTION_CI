@@ -37,7 +37,7 @@ jobs:
       - name: Install Python on Runner 
         uses: actions/setup-python@v4
         with:
-          python-version:"3.14"
+          python-version:"3.12"
         
         #Step-3: Install the dependency needed to run the tests
       - name: Install Python Dependencies
