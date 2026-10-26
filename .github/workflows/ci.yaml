@@ -9,12 +9,12 @@ on:
 #Run Ci whenever code is pushed to the main branch
   push:
     branches:
-      -main
+      - main
 
     #Also validate proposed changes before they are merged
     pull_request:
       branches:
-        -main
+        - main
 
 #permissions are restricted to reading repo content only
 permissions:
