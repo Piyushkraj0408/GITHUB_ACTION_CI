@@ -2,7 +2,7 @@
 #github automatically looks for workflow file inside .github/workflows/
 
 #give workflow a meaningful name
-name: Iris ML API - CI Pipeline
+name: Iris ML API - CI Pipeline V2
 
 #Define when github should run this worflow
 on:
